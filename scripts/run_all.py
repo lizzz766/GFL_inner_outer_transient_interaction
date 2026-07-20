@@ -16,9 +16,16 @@ def main() -> None:
         default=Path("results"),
         help="Directory for figures and summary.json.",
     )
+    parser.add_argument(
+        "--bandwidths",
+        type=float,
+        nargs="+",
+        default=[300.0, 500.0],
+        help="Current-loop bandwidths in Hz.",
+    )
     args = parser.parse_args()
 
-    payload = run_and_save(args.output)
+    payload = run_and_save(args.output, bandwidths_hz=args.bandwidths)
     for case in payload["cases"]:
         print(
             f"fc={case['current_bandwidth_hz']:.0f} Hz: "
