@@ -1,0 +1,35 @@
+{
+  "fig6_reduced": {
+    "Pm": 185.49555921538757,
+    "delta_sep": 0.6390693886507217,
+    "delta_uep": 2.5025232649390716,
+    "At": 0.7,
+    "M": 0.026333333333333334,
+    "D": 3.11,
+    "beta_max": 0.006409305602329779,
+    "beta": 0.004166048641514356,
+    "u_max": 37.099111843077516
+  },
+  "single_vsc": {
+    "with_feedforward_escaped": false,
+    "without_feedforward_escaped": true,
+    "with_feedforward_max_abs_deltaA_over_A": 0.2142082202940754,
+    "without_feedforward_max_abs_deltaA_over_A": 1.3714199801047362
+  },
+  "two_identical_vsc": {
+    "B_over_A": 0.754043223477545,
+    "static_scale_A_plus_B_over_A": 1.7540432234775452,
+    "deep_fault_escaped": true,
+    "shallower_fault_escaped": false
+  },
+  "mismatched_neighbor": {
+    "max_abs_deltaB1_over_A1": 0.10577944253758043,
+    "escaped": false
+  },
+  "path_dependence": {
+    "common_delta0": 2.3,
+    "common_omega0": 0.0,
+    "positive_hidden_residual_escaped": true,
+    "negative_hidden_residual_escaped": false
+  }
+}

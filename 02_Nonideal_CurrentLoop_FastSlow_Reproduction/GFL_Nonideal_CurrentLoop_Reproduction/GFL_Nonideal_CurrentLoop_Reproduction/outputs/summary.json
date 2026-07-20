@@ -1,0 +1,10 @@
+{
+  "paper_default_hopf_kp_pu": 0.20113930160806376,
+  "continued_snpo_kp_pu": 0.29241983405482325,
+  "continued_snpo_period_s": 0.29171987633432,
+  "number_of_continued_periodic_orbits": 143,
+  "critical_positive_phase_jump_at_kp_0p4_pu_rad": 2.196660488252238,
+  "paper_reported_phase_jump_at_kp_0p4_pu_rad_approximately": 2.3,
+  "snpo_absolute_error_vs_paper_kp_pu": 0.00041983405482326486,
+  "hopf_absolute_error_vs_paper_kp_pu": 0.00013930160806374658
+}
